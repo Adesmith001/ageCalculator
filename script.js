@@ -23,13 +23,12 @@ window.addEventListener("load", function() {
 });
 
 
-
 window.onload = function(){
   var calculateButton = document.getElementById("calculate-arrow");
   calculateButton.addEventListener("click", checkConditions);
 }
 
-
+// Function to check if user input is valid
 function checkConditions(){
   const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   const daysInMonthLeapYear = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
